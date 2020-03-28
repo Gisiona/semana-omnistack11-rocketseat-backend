@@ -16,9 +16,7 @@ function App() {
 
   return (
     <div>
-      <Header> Contador: { counter }   </Header>
-      <button onClick={adicionar}> Adicionar</button>
-
+      
       <Login />
     </div> 
   );
