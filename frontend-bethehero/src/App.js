@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState} from 'react';
+
+import Header from './Header';
+
+import './global.css';
+
+import Login from './pages/login';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <b>Hello OmniStack 11</b>
+  const [counter, setCounter] = useState(0);
 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  function adicionar(){
+    setCounter(counter + 1);
+    console.log(counter);
+  }
+
+  return (
+    <div>
+      <Header> Contador: { counter }   </Header>
+      <button onClick={adicionar}> Adicionar</button>
+
+      <Login />
+    </div> 
   );
 }
 
