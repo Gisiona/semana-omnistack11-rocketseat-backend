@@ -1,10 +1,6 @@
 import React, { useState} from 'react';
-
-import Header from './Header';
-
 import './global.css';
-
-import Login from './pages/login';
+import Routes from './Routes';
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -16,8 +12,8 @@ function App() {
 
   return (
     <div>
-      
-      <Login />
+
+      <Routes />
     </div> 
   );
 }

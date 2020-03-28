@@ -4,3 +4,4 @@ Código da aplicação back-end desenvolvido durante a Semana OmniStack 11
 # Libs utilizadas:
     - react
     - react-icons
+    - react-router-dom
