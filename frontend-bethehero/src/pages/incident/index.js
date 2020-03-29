@@ -17,7 +17,7 @@ export default function Incident(){
 
                     <Link to='/profile' className='back-link'>
                         <FiArrowLeft size={16} color='#e02041' />
-                        Já tenho cadastro, voltar para o login.
+                        Voltar para home.
                     </Link>
                 </section>
 
