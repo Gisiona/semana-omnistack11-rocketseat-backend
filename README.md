@@ -7,5 +7,5 @@ Código da aplicação front-end desenvolvido com React durante a Semana OmniSta
     - react-router-dom
     - axios
 
-# Comandos básicos do Knex:
+# Comando para iniciar a aplicação:
     - npm start
